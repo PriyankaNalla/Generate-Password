@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;  /* Make sure body and html take up the full height */
+    margin: 0;     /* Remove default margin */
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #7931ebcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .card {
+        background-color: white;
+        border-radius: 0.2rem;
+        box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-body {
+        padding: 20px;
+    }
+    .card-title{
+        text-align: center;
+    }
